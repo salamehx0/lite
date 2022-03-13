@@ -1,11 +1,11 @@
 # What is "Lite"?
 
 Lite is a small and lighweight API for SQLite3.  
-It facilitates the process of building and manipulating
-databases with SQLite3 and provides supports of some of  
-the limitations of SQLite itself.
+It facilitates the process of building and manipulating   
+databases with SQLite3 and provides supports of some of     
+the limitations of SQLite itself.   
 
-While SQLite’s SQL is good and has many great features, there  
+While SQLite’s is good and has many great features, there  
 are some things it currently does not implement. __*Lite*__ offers  
 a set of solutions or implementations of some of these limitations.
 
@@ -20,11 +20,11 @@ a set of solutions or implementations of some of these limitations.
 
 3. Support for diffrent __*ALTER TABLE*__ commands: 
 
-  **SQLite** only supports the `RENAME TABLE` and `ADD COLUMN`  
-  variants of the `ALTER TABLE` command. Other kinds of operations  
-  such as `DROP COLUMN`, `ALTER COLUMN`, and `ADD CONSTRAINT` are  
-  not implemented. __*Lite*__ supports and implements all the  
-  previous commands except `ADD CONSTRAINT`.
+     **SQLite** only supports the `RENAME TABLE` and `ADD COLUMN`  
+     variants of the `ALTER TABLE` command. Other kinds of operations  
+     such as `DROP COLUMN`, `ALTER COLUMN`, and `ADD CONSTRAINT` are  
+     not implemented. __*Lite*__ supports and implements all the  
+     previous commands except `ADD CONSTRAINT`.
 
 4. Friendly Syntax
   e.g: 
